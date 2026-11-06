@@ -1,0 +1,9 @@
+**/.pio/
+__pycache__/
+*.py[cod]
+.venv/
+**/config.local.h
+*.bin
+*.elf
+*.uf2
+*.map

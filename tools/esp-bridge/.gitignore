@@ -1,0 +1,11 @@
+.pio/
+__pycache__/
+*.py[cod]
+.venv/
+include/config.local.h
+
+# Compiled firmware stays local.
+*.bin
+*.elf
+*.uf2
+*.map
