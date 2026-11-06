@@ -1,0 +1,17 @@
+{
+  "origin": "Local verified civswitch-input-adapter and Pro report transport; see README evidence links",
+  "files": {
+    "civswitch-input.js": "3c89f2204987de7f0839fe0050f487c5e8a5120efb81a20e6313ec3355b87179",
+    "transport.js": "7896410ad9b99b68a0105eb366754b18a3088fed3d199356f05258b0a940e9c9",
+    "motion-reader.js": "14c196007815017e64cb7a4e3900c74deb2816c4b4999816defc37fba6075738",
+    "motion-activate.js": "ee3d1e1ca256aea3365ccdf3fbb44dbcfa9b33fc9f8cded5760cf9ff0906d485",
+    "motion-reader-profile.json": "0f584752b8d070954e1c362f5e483835a7b292e6af387eeb2f9c00133316a28a",
+    "motion-activation-profile.json": "f47b49165ba84daf67f418184fbd5e7642fe19859725286fdc479b22c1dd9694",
+    "rumble-pulse.js": "8b2af8bfe376be4e32d4dd3e1a9acd32f9a58fe05bdb47acdfd6cf2e98d91ddd",
+    "rumble-profile.json": "695b3f8ec565e00ee221e8a8da2fc2a2553513fb8036b483253dc5391644243d",
+    "touch-profile.json": "7d020e107b881bf5d22a430fcbe9651bfe735357b08705840b4fbbba6300dc65"
+  },
+  "motionOrigin": "Unchanged locally verified civswitch-motion reader/activation and hash profiles; see Switch 1 and Switch 2 motion reports",
+  "rumbleOrigin": "Unchanged Switch 2 handheld pulse helper/profile, accepted LEFT/RIGHT/BOTH and stops; no previous reports needed by integrated bootstrap",
+  "inputOrigin": "Accepted reader/adapter bodies retained exactly; old embedded SDK reference bytes replaced by touch-profile.json and fresh touch-native.js capture. Original proof retained only in private baseline."
+}

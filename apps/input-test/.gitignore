@@ -1,0 +1,15 @@
+reports/
+screenshots/desktop-session.json
+baseline/
+release/
+__pycache__/
+*.pyc
+node_modules/
+.usb-input-*.js
+
+# Only reviewed desktop previews belong in the repository.
+screenshots/*
+!screenshots/controls.png
+!screenshots/motion.png
+!screenshots/rumble.png
+!screenshots/ten-touch.png

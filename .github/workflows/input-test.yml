@@ -1,0 +1,29 @@
+name: Input Test checks
+on:
+  push:
+    paths: ['apps/input-test/**', '.github/workflows/input-test.yml', '.gitattributes']
+  pull_request:
+    paths: ['apps/input-test/**', '.github/workflows/input-test.yml', '.gitattributes']
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/input-test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: apps/input-test/package-lock.json
+      - run: python3 build.py
+      - run: python3 -m unittest test_runner.py test_usb.py
+      - run: npm ci
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser
+      - run: python3 package_release.py

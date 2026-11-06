@@ -7,3 +7,24 @@ __pycache__/
 *.elf
 *.uf2
 *.map
+
+# Local observations, dependencies, temporary payloads and private configuration.
+**/reports/
+**/baseline/
+**/release/
+**/node_modules/
+**/.usb-input-*.js
+**/screenshots/desktop-session.json
+**/.env*
+!**/.env.example
+**/config.local.*
+*.gb
+*.gbc
+*.gba
+*.sav
+*.srm
+*.nsp
+*.xci
+*.keys
+*.p12
+*.pfx

@@ -1,0 +1,13 @@
+{
+  "name": "switch-input-test",
+  "version": "1.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node test_view.cjs && node test_model.cjs && node test_motion.cjs && node test_rumble.cjs && node test_app.cjs",
+    "test:browser": "node test_browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}

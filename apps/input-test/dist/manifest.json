@@ -1,0 +1,25 @@
+{
+  "version": "1.1.0",
+  "artifact": "switch-input-test.js",
+  "bytes": 117014,
+  "sha256": "0519115794a25987bf6671030a0d31194f08b1f8b5ad20414497d5c3f70cb62b",
+  "status": "v1.1.0 Switch 2 appearance, labels, Motion rumble and responsiveness accepted; runtime unchanged after acceptance",
+  "files": {
+    "solid-mono.js": "f9a1b93488dafcfea5ca87e2b2bb2894ab4f1b1a9870b8c61dc3220e938bdb5e",
+    "solid-text.js": "f36b31c780b8368d0020bdc116f531ac34a491cd5082a710c9a77802e4c3c038",
+    "touch-native.js": "34654ae3cf9722ed598e9040b1947327982323ab66108e3f353bc1cc2616cda3",
+    "model.js": "11921fcffbec830015fc9a8a2266f648ea06b614dae02f1d04a1acbd4934c76b",
+    "view.js": "7928800f94353a096b864a10098efe9bc88c1e3e3449d06e28ef3a0e32c6aba5",
+    "app.js": "c4385d8ff3c218861dd1ca7ac5ab07a351d164317dd1b01394147afad1066d6a",
+    "motion.js": "1d07878417a726606909e445ad4f10c51fdb96f1440ccf09849cc46527fcd647",
+    "motion-native.js": "cba4b23a600e2788c3be697f7cb66c160b79e30d806ee0bd3eacf48eda2b4347",
+    "rumble-native.js": "18e39239929e2fd8fb91dd2128c908e8d21d4eb76c9979d42a6cc280b1e0f1a7",
+    "rumble.js": "aaf2fbb746144c2864afe6931315f48aad081af71275fbb3bd40d79288f11523",
+    "build.py": "dc149047579511fc5b77549b422bea9260e216f955e9cdc7cf210a2423931607",
+    "run.py": "7b177801c048a4d3b628f36f97e76da288a270457daf1fd6a87eabce8d2f20d2",
+    "report_transport.py": "58e13dc0ff1300ab3bc48165937f3d62d8e91832daa7217f7ee0f665b820b615",
+    "usb_connection.py": "6fd0f1469fca4b553cf481bbbea3c04b87da586f570ba9b92163540fd7d43d20",
+    "usb_send.py": "7ed25575b6b4ffe9c6661b75b2dc12c4fef9a648acf2646a5905b99f73ffed57",
+    "vendor/manifest.json": "0635dd113850881e6ac568cdad54802fcd548d60183f44e0bbf8531806123282"
+  }
+}
