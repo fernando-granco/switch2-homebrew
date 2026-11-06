@@ -2,7 +2,7 @@
 
 An original tilt-maze game for the [CivSwitch](https://github.com/Gezine/CivSwitch) JavaScript loader. Tilt a wooden board drawn in perspective to roll a steel ball along a dotted guide line. Avoid the holes, pass the brass checkpoint tacks and drop the ball into the cup under the blue flag. Play by tilting the console, with the stick, or by dragging on the touch screen. Rumble taps the side of the console that hit a wall.
 
-![Timber Tilt board picker](screenshots/boards-oak.png)
+![Timber Tilt board picker](screenshots/title.png)
 
 It belongs to the classic ball-labyrinth genre (the physical wooden toy). The name, the 24 boards, the mechanics (felt, varnish, brass pegs, acorns, stars), the Canvas art and the block lettering are all original.
 
