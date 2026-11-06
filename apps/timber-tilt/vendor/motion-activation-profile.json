@@ -1,0 +1,44 @@
+{
+  "schema": "civswitch-motion-activation-profile/1",
+  "revision": "npad-handheld-start-v1",
+  "sourceAuditSHA256": "9252ea236e65bd829d8b174efac3bf2ad9c238cddab49d341bf6c8372e549902",
+  "qualification": "Temporary Npad handheld native start/stop only; hardware activation unvalidated",
+  "blocks": [
+    {
+      "role": "start",
+      "relativeOffset": "0x4b1890",
+      "bytes": 128,
+      "fnv1a": "21ff4932"
+    },
+    {
+      "role": "stop",
+      "relativeOffset": "0x4b1910",
+      "bytes": 128,
+      "fnv1a": "19a1c25e"
+    },
+    {
+      "role": "handleBuilder",
+      "relativeOffset": "0x4bfbc0",
+      "bytes": 368,
+      "fnv1a": "dc9c16f8"
+    },
+    {
+      "role": "validator",
+      "relativeOffset": "0x4bfb80",
+      "bytes": 60,
+      "fnv1a": "93eacf28"
+    },
+    {
+      "role": "service",
+      "relativeOffset": "0x4cfa30",
+      "bytes": 512,
+      "fnv1a": "880a1228"
+    },
+    {
+      "role": "resourceId",
+      "relativeOffset": "0x4bf970",
+      "bytes": 4,
+      "fnv1a": "8df3490a"
+    }
+  ]
+}

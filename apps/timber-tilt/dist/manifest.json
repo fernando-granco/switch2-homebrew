@@ -1,0 +1,22 @@
+{
+  "version": "0.2.2",
+  "artifact": "timber-tilt.js",
+  "bytes": 142235,
+  "sha256": "3da0ad047e298e5c42c0dd249a6c019520fd81171042a535fa01672e904c15d1",
+  "status": "Switch 2 handheld tested (motion tilt, touch, rumble); see README for scope",
+  "files": {
+    "levels.js": "b8ee7cea7400c34a418479fc795c1434c6ea119e35455c400e320f5db6a075ee",
+    "physics.js": "e1d6a4cc7383f42b4d5ee63855eae1e3beb842ade3f678f2c9cbf4e5b14cec34",
+    "tilt.js": "124432ec193090e4176c4c24123088ab4a083f3e7de34fea4458e50d3e54690d",
+    "font.js": "7d2a1914fd29983d88fceb7dde219ae131227c39048d04e9d455d1a014d89ccd",
+    "render.js": "b0e64bea4f449c53f26575b4c751f7937b8f30c83c2da3156aad4757a8198ea6",
+    "haptics.js": "3896fc061473bf923f196140e3f7939132665c36b18d1fbe1af9adee668a9b24",
+    "game.js": "3b06b2f7b8bb7a7cd2bbbd594c999873671fdf56e7cab40fe7f58e866a111316",
+    "build.py": "2788bd7c5aa333c4f9c0197ed75bbc2329c0787f2032ad631a10c4824ff914cd",
+    "run.py": "305be4d1550e2078e001464cdb8a8eb3435146e7ea927933bec9712be4c08502",
+    "report_transport.py": "58e13dc0ff1300ab3bc48165937f3d62d8e91832daa7217f7ee0f665b820b615",
+    "usb_connection.py": "6fd0f1469fca4b553cf481bbbea3c04b87da586f570ba9b92163540fd7d43d20",
+    "usb_send.py": "7ed25575b6b4ffe9c6661b75b2dc12c4fef9a648acf2646a5905b99f73ffed57",
+    "vendor/manifest.json": "3862ebdf2043c6b2a54a32f2b06b7847f9bd16b33512f341c69a1fb9e4832d00"
+  }
+}

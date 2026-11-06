@@ -1,0 +1,18 @@
+{
+  "origin": "Byte-identical copies of the libraries shipped with this repository's Switch Input Test (apps/input-test): InputAction adapter, hash-only native touch reader and profile, Pro ASCII1400 report transport, motion reader/activation and profiles, motion wrappers (motion.js -> switch-motion.js, motion-native.js -> switch-motion-native.js), and the handheld rumble pulse helper, profile and wrapper (rumble-native.js -> switch-rumble-native.js). Profiles contain hashes, offsets and minimal instruction masks, not SDK code.",
+  "files": {
+    "civswitch-input.js": "3c89f2204987de7f0839fe0050f487c5e8a5120efb81a20e6313ec3355b87179",
+    "motion-activate.js": "ee3d1e1ca256aea3365ccdf3fbb44dbcfa9b33fc9f8cded5760cf9ff0906d485",
+    "motion-activation-profile.json": "f47b49165ba84daf67f418184fbd5e7642fe19859725286fdc479b22c1dd9694",
+    "motion-reader-profile.json": "0f584752b8d070954e1c362f5e483835a7b292e6af387eeb2f9c00133316a28a",
+    "motion-reader.js": "14c196007815017e64cb7a4e3900c74deb2816c4b4999816defc37fba6075738",
+    "rumble-profile.json": "695b3f8ec565e00ee221e8a8da2fc2a2553513fb8036b483253dc5391644243d",
+    "rumble-pulse.js": "8b2af8bfe376be4e32d4dd3e1a9acd32f9a58fe05bdb47acdfd6cf2e98d91ddd",
+    "switch-motion-native.js": "cba4b23a600e2788c3be697f7cb66c160b79e30d806ee0bd3eacf48eda2b4347",
+    "switch-motion.js": "1d07878417a726606909e445ad4f10c51fdb96f1440ccf09849cc46527fcd647",
+    "switch-rumble-native.js": "18e39239929e2fd8fb91dd2128c908e8d21d4eb76c9979d42a6cc280b1e0f1a7",
+    "touch-native.js": "34654ae3cf9722ed598e9040b1947327982323ab66108e3f353bc1cc2616cda3",
+    "touch-profile.json": "7d020e107b881bf5d22a430fcbe9651bfe735357b08705840b4fbbba6300dc65",
+    "transport.js": "7896410ad9b99b68a0105eb366754b18a3088fed3d199356f05258b0a940e9c9"
+  }
+}

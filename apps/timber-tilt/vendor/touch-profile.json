@@ -1,0 +1,14 @@
+{
+  "schema": "switch-input-touch-profile/1",
+  "declaredEndRelative": "0xc15f68",
+  "prefix": {
+    "bytes": 128,
+    "fnv1a": "bce9207d"
+  },
+  "block": {
+    "label": "_ZN2nn3hid6detail19GetTouchScreenStateILm1EEENS_6ResultEPNS0_16TouchScreenStateIXT_EEE",
+    "relativeOffset": "0x4b2980",
+    "bytes": 360,
+    "fnv1a": "f473c928"
+  }
+}

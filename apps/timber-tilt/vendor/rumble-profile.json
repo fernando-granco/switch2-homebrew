@@ -1,0 +1,55 @@
+{
+  "schema": "civswitch-rumble-profile/1",
+  "revision": "handheld-pulse-v1",
+  "sourceAuditSHA256": "897aadcb52e9502e92a525272aafd980522ef1ea221c63b4854f491264fd5057",
+  "blocks": [
+    {
+      "role": "builder",
+      "relativeOffset": "0x4bfef0",
+      "bytes": 500,
+      "fnv1a": "7d551722"
+    },
+    {
+      "role": "initialize",
+      "relativeOffset": "0x4b6c40",
+      "bytes": 272,
+      "fnv1a": "4260944d"
+    },
+    {
+      "role": "send",
+      "relativeOffset": "0x4b6de0",
+      "bytes": 80,
+      "fnv1a": "d1007bfd"
+    },
+    {
+      "role": "permitted",
+      "relativeOffset": "0x4b6b90",
+      "bytes": 52,
+      "fnv1a": "2d334248"
+    },
+    {
+      "role": "mounted",
+      "relativeOffset": "0x4b6f90",
+      "bytes": 80,
+      "fnv1a": "f2edd5ce"
+    },
+    {
+      "role": "info",
+      "relativeOffset": "0x4b6d70",
+      "bytes": 104,
+      "fnv1a": "e7ed4322"
+    },
+    {
+      "role": "serviceEnsure",
+      "relativeOffset": "0x4b6ae0",
+      "bytes": 176,
+      "fnv1a": "5836f00a"
+    },
+    {
+      "role": "resourceId",
+      "relativeOffset": "0x4bf970",
+      "bytes": 16,
+      "fnv1a": "cafd5aea"
+    }
+  ]
+}

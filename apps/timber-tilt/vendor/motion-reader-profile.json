@@ -1,0 +1,44 @@
+{
+  "schema": "civswitch-motion-reader-profile/1",
+  "revision": "audited-sixaxis-v1",
+  "sourceAuditSHA256": "7c1b0be6577be30c9eecb948da0212f149a6fd7bc1f596c76a4a0c1950784726",
+  "qualification": "Locally audited Switch 1 SDK only; verify retained and live code fingerprints; motion data unvalidated",
+  "blocks": [
+    {
+      "role": "generic",
+      "relativeOffset": "0x4af3c0",
+      "bytes": 460,
+      "fnv1a": "24561a0e"
+    },
+    {
+      "role": "left",
+      "relativeOffset": "0x4af740",
+      "bytes": 432,
+      "fnv1a": "3fbdca5e"
+    },
+    {
+      "role": "right",
+      "relativeOffset": "0x4af590",
+      "bytes": 432,
+      "fnv1a": "4e3ca99e"
+    },
+    {
+      "role": "style",
+      "relativeOffset": "0x4ad520",
+      "bytes": 108,
+      "fnv1a": "f213a308"
+    },
+    {
+      "role": "accessor",
+      "relativeOffset": "0x4ad3d0",
+      "bytes": 60,
+      "fnv1a": "d907340e"
+    },
+    {
+      "role": "lookup",
+      "relativeOffset": "0x4aca3c",
+      "bytes": 36,
+      "fnv1a": "c8c5eb56"
+    }
+  ]
+}

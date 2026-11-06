@@ -12,6 +12,14 @@ Test gameplay buttons, both sticks, ten-finger touch, raw motion and rumble. A t
 
 [Run and build instructions](apps/input-test/README.md) · [Ready-to-send JavaScript payload](apps/input-test/dist/switch-input-test.js) · [Validation scope](apps/input-test/VALIDATION.md).
 
+### [Timber Tilt](apps/timber-tilt/)
+
+An original tilt-maze game: roll a steel ball across 24 wooden boards by tilting the console, with the stick or by dragging on the screen. It has felt, varnish, brass pegs, acorns and stars, and rumble taps the side that hit a wall.
+
+![Timber Tilt](apps/timber-tilt/screenshots/board-14.png)
+
+[Run and build instructions](apps/timber-tilt/README.md) · [Ready-to-send JavaScript payload](apps/timber-tilt/dist/timber-tilt.js).
+
 ## Tools
 
 ### [ESP USB-to-Wi-Fi Bridge](tools/esp-bridge/)
@@ -28,7 +36,7 @@ Tested with an ESP8266EX / CP2102, Switch 1 FW 21.2.0 and Switch 2 FW 20.1.5. Bo
 
 ## License
 
-Each project includes its own license. Input Test is [MIT](apps/input-test/LICENSE), with separate [font/loader notices](apps/input-test/NOTICE.md). The ESP bridge is [GPL-2.0-or-later](tools/esp-bridge/LICENSE); its CivSwitch example has a separate [MIT license](tools/esp-bridge/licenses/CivSwitch-MIT.txt).
+Each project includes its own license. Input Test is [MIT](apps/input-test/LICENSE), with separate [font/loader notices](apps/input-test/NOTICE.md). Timber Tilt is [MIT](apps/timber-tilt/LICENSE), with separate [notices](apps/timber-tilt/NOTICE.md). The ESP bridge is [GPL-2.0-or-later](tools/esp-bridge/LICENSE); its CivSwitch example has a separate [MIT license](tools/esp-bridge/licenses/CivSwitch-MIT.txt).
 
 ## AI Disclaimer
 
