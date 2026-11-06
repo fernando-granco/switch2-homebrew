@@ -2,4 +2,4 @@
 *.sh text eol=lf
 
 # Keep the native compatibility bundles byte-identical to their hash manifest.
-apps/input-test/** -text
+apps/input-test/** -text whitespace=cr-at-eol
