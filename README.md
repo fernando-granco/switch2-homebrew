@@ -8,7 +8,7 @@ A growing collection of homebrew games, apps, and hardware tests for Nintendo Sw
 
 Test gameplay buttons, both sticks, ten-finger touch, raw motion and rumble. A touch-friendly interface with large solid lettering; rumble lives directly on Motion.
 
-![Switch Input Test](apps/input-test/screenshots/motion.png)
+![Switch Input Test](apps/input-test/screenshots/controls.png)
 
 [Run and build instructions](apps/input-test/README.md) · [Ready-to-send JavaScript payload](apps/input-test/dist/switch-input-test.js) · [Validation scope](apps/input-test/VALIDATION.md).
 
