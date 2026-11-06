@@ -1,0 +1,14 @@
+reports/
+screenshots/desktop-session.json
+__pycache__/
+*.pyc
+node_modules/
+.usb-input-*.js
+
+# Only reviewed desktop previews belong in the repository.
+screenshots/*
+!screenshots/title.png
+!screenshots/boards-oak.png
+!screenshots/board-14.png
+!screenshots/clear.png
+!screenshots/play-bridges.png

@@ -1,0 +1,13 @@
+{
+  "name": "timber-tilt",
+  "version": "0.2.2",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node test_model.cjs && node test_tilt.cjs && node test_haptics.cjs && node test_font.cjs",
+    "test:browser": "node test_browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}
