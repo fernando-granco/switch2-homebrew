@@ -80,7 +80,7 @@ If the optional bridge service is running, it owns USB. Send through its localho
 python3 run.py 127.0.0.1 --platform switch2
 ```
 
-Use `--platform switch1` for Switch 1. Run localhost clients in the same OS as the service; on Windows use `py -3` (also from WSL if the service runs in Windows). Stop the service before returning to direct USB use. The JavaScript payloads themselves do not depend on the service.
+Use `--platform switch1` for Switch 1. Run localhost clients in the same OS as the service; use `py -3` on Windows, or `py.exe -3` from WSL if the service runs in Windows. Stop the service before returning to direct USB use. The JavaScript payloads themselves do not depend on the service.
 
 ## Debug without the bridge service
 
