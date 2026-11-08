@@ -16,7 +16,7 @@ The ESP creates the offline access point. Your PC stays on its regular network, 
 Open and password-protected Wi-Fi have both been tested. Both consoles can stay connected at the same time. Send payloads to either one by changing the target IP, one transfer at a time.
 
 
-The combined payload/GDB firmware is currently an offline-tested update. Its new simultaneous mode still needs a hardware test.
+The combined firmware has been flashed on the ESP8266, its protocol checks pass, and the simultaneous payload/debug workflow has been reported working. ESP32 variants remain untested on hardware.
 
 ## Setup
 
@@ -63,6 +63,24 @@ bash send_usb_wsl.sh 192.168.77.100 hello.js COM7
 ```
 
 Replace `hello.js` with your payload. Close any serial monitor first. For longer runs, add `--timeout 600`.
+
+## Using the game and input test
+
+Timber Tilt and Switch Input Test both work without the PC bridge service. From either app's folder, use its normal launcher:
+
+```bash
+python3 run.py YOUR_CONSOLE_IP --platform switch2 --usb --serial YOUR_SERIAL_PORT
+```
+
+For direct Wi-Fi, put the PC on the ESP network and omit `--usb --serial YOUR_SERIAL_PORT`.
+
+If the optional bridge service is running, it owns USB. Send through its localhost port instead:
+
+```bash
+python3 run.py 127.0.0.1 --platform switch2
+```
+
+Use `--platform switch1` for Switch 1. Run localhost clients in the same OS as the service; on Windows use `py -3` (also from WSL if the service runs in Windows). Stop the service before returning to direct USB use. The JavaScript payloads themselves do not depend on the service.
 
 ## Debug without the bridge service
 

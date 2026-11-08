@@ -32,6 +32,8 @@ PC -- USB --> ESP -- Wi-Fi --> Switch
 
 Tested with an ESP8266EX / CP2102, Switch 1 FW 21.2.0 and Switch 2 FW 20.1.5. Both consoles can stay connected; choose which one receives a payload by its IP address. Open and password-protected networks work.
 
+The optional PC bridge service lets payloads and GDB debugging share USB at the same time. The game and input test also work directly without it.
+
 [Build, flash and send instructions](tools/esp-bridge/README.md). ESP firmware is provided as source only.
 
 ## License

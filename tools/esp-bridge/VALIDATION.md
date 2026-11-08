@@ -2,7 +2,7 @@
 
 This update combines the configurable Wi-Fi AP, the legacy payload route,
 the previously exercised direct GDB route and a new optional multiplex route.
-The installed board was not flashed during development of this update.
+The combined ESP8266 build was subsequently flashed and checked on hardware.
 
 ## Existing hardware evidence
 
@@ -10,8 +10,12 @@ The installed board was not flashed during development of this update.
   open/password networks and both consoles associated.
 - Earlier ESP8266 debug build: Switch 1 serial capability check, connections to
   both 9026 and 22225, and a read-only GDB process-list exchange.
-- These observations concern earlier builds. They do not establish hardware
-  acceptance of this combined source, simultaneous traffic, or ESP32 operation.
+- Combined ESP8266 firmware: flash data verified by esptool; post-boot replies
+  `READY 1`, `READY 2 GDB1` and `READY 3 MUX2` verified over serial.
+- The optional service started and its two localhost ports were verified.
+  The operator then reported the combined workflow working. No new complete
+  wire capture or individually recorded failure/reconnect test matrix accompanies
+  that report. ESP32 operation and Switch 2 debugging remain unverified.
 
 ## Offline checks
 
@@ -37,9 +41,9 @@ simulation. All four board environments compiled, and a separate ESP8266
 password-protected build passed. Windows CLI import/help checks and WSL script
 syntax checks passed. ESP32-family radio/USB operation remains untested.
 
-## Hardware acceptance still needed
+## Further hardware checks
 
-When the operator chooses to flash, verify the configured SSID/password and
+For another board or configuration, verify the configured SSID/password and
 normal console association first. Then check direct payload sending and direct
 GDB access separately. Finally use the optional service with GDB connected:
 send a payload, confirm its complete output, query GDB during transfer and
